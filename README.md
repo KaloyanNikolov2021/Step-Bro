@@ -10,15 +10,13 @@
 
 > *"From hardware wiring to firmware implementation—a complete end-to-end solution engineered by a single developer."*
 
-This project represents a **diploma-level achievement** at one of Bulgaria's premier technical institutions, demonstrating how far a school-level IoT initiative can be pushed through rigorous engineering practices.
-
 ---
 
 ## 🎯 Key Features & Capabilities
 
 ### Sensor Integration
 - **Advanced ToF Sensing**: Real-time distance measurements (not basic ultrasonic/IR)
-- **Inertial Measurement Unit (IMU)**: Accelerometer, gyroscope, and magnetometer fusion
+- **Inertial Measurement Unit (IMU)**: Accelerometer, Bluetooth and others
 - **Multi-axis Monitoring**:
   - Orbit or leg movement tracking
   - Speed readings with temporal precision
@@ -32,14 +30,14 @@ This project represents a **diploma-level achievement** at one of Bulgaria's pre
 │   Microcontroller Firmware          │
 │   (Structured, Debuggable)          │
 ├─────────────────────────────────────┤
-│   Serial Output + LED Feedback      │
+│   Serial Output + Feedback          │
 │   (Real-time Monitoring)            │
 └─────────────────────────────────────┘
 ```
 
 ### Engineering Highlights
 1. ***Reliability First***: Structured firmware architecture over quick-and-dirty demo code
-2. **Visual Feedback**: LED indicators for operational status and diagnostics
+2. **Visual Feedback**: Motion and light indicators and for operational status and diagnostics
 3. **Serial Communication**: Direct data stream for analysis and debugging
 4. **Production-Grade Code**: Maintainable, documented, and extensible design patterns
 
@@ -55,9 +53,8 @@ This project represents a **diploma-level achievement** at one of Bulgaria's pre
 | **Code Quality** | Production-ready firmware | Demo/Tutorial code |
 | **Scope** | Full end-to-end system | Single component focus |
 | **Documentation** | Comprehensive technical docs | Minimal/none |
-
-### Development Achievement
-**Built entirely by an 18-year-old engineer**—from PCB design and component selection to firmware architecture and systems integration. This isn't a tutorial project; it's a *professional-grade portfolio piece*.
+| **Independence** | Connects directly to phone | Needs other devices |
+| **Coaching** | Gives tips & tricks on how to improve | Doesn't tell you how to improve |
 
 ---
 
@@ -79,7 +76,7 @@ This project represents a **diploma-level achievement** at one of Bulgaria's pre
 > **Important**: This is a ***personal, academic project*** published for **reference and portfolio purposes** exclusively.
 
 ### Restrictions
-- ❌ ***Not intended for commercial deployment***
+- ❌ ***Not intended for commercial deployment yet***
 - ❌ ***Not designed as a reusable library or module***
 - ❌ ***Not suitable as a foundation for derivative products***
 
@@ -97,16 +94,14 @@ This project represents a **diploma-level achievement** at one of Bulgaria's pre
 
 ---
 
-## 📖 Getting Started
-
-For ***detailed setup instructions, hardware requirements, and firmware flashing procedures***, see the **[SETUP.md](./SETUP.md)** guide.
-
----
-
 ## 📄 License
 
 MIT License — See [`LICENSE`](./LICENSE) for full terms.
 
 ---
+
+### Development Achievement ###
+Built entirely by me :p for my high school diploma. Started it mid november, supposed to present it by the end of january. Despite whatever my grade is I think im going to develop the project further for personal use if nothing else works out, but i would like to patent it and try to sell it. 
+
 
 **Questions or improvements?** Open an issue or submit a pull request. Happy engineering! 🎓
