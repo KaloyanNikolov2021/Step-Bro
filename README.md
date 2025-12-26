@@ -2,7 +2,7 @@
 A distance‑sensing firmware project turning a tiny embedded board into a live measuring instrument for wearables and IoT – built by an 18‑year‑old high school student from TUES, Sofia.
 ​
 
-<p align="center"> <img src="https://img.shields.io/badge/Made%20by-High%20School%20Student-ff69b4?style=for-the-badge" /> <img src="https://img.shields.io/badge/School-TUES%20Sofia-005BBB?style=for-the-badge" /> <img src="https://img.shields.io/badge/Field-Embedded%20Systems-0A84FF?style=for-the-badge" /> <img src="https://img.shields.io/badge/Tech-Brand%20MCU%20%2B%20Brand%20ToF%20Sensor-FF6F00?style=for-the-badge" /> </p>[3][4]
+<p align="center"> <img src="https://img.shields.io/badge/Made%20by-High%20School%20Student-ff69b4?style=for-the-badge" /> <img src="https://img.shields.io/badge/School-TUES%20Sofia-005BBB?style=for-the-badge" /> <img src="https://img.shields.io/badge/Field-Embedded%20Systems-0A84FF?style=for-the-badge" /> <img src="https://img.shields.io/badge/Tech-Brand%20MCU%20%2B%20Brand%20ToF%20Sensor-FF6F00?style=for-the-badge" /> </p>
 ✨ What this project is
 Small wearable IoT fitnes device that goes on one of your ankles. It gives you all sorts of useful information.
 
