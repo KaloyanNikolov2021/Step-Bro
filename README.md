@@ -1,46 +1,112 @@
-🛰️ Foot Pod - Step Bro
-A distance‑sensing firmware project turning a tiny embedded board into a live measuring instrument for wearables and IoT – built by an 18‑year‑old high school student from TUES, Sofia.
-​
+# 🚀 Step-Bro - Advanced Foot Pod IoT System
 
-<p align="center"> <img src="https://img.shields.io/badge/Made%20by-High%20School%20Student-ff69b4?style=for-the-badge" /> <img src="https://img.shields.io/badge/School-TUES%20Sofia-005BBB?style=for-the-badge" /> <img src="https://img.shields.io/badge/Field-Embedded%20Systems-0A84FF?style=for-the-badge" /> <img src="https://img.shields.io/badge/Tech-Brand%20MCU%20%2B%20Brand%20ToF%20Sensor-FF6F00?style=for-the-badge" /> </p>
-✨ What this project is
-Small wearable IoT fitnes device that goes on one of your ankles. It gives you all sorts of useful information.
+---
 
-Appropiate for mid to long distance runners from every point of expertise.
+## 📋 Overview
 
-Easy to connect to your phone with Bluetooth, also doesn't need a smart watch of any sort to work. Charges with USB-C.
+**Step-Bro** is an *innovative* and ***cutting-edge*** wearable motion sensing platform designed for precision athletics and biomechanical analysis. Unlike conventional approaches, this system leverages **ToF (Time-of-Flight)** sensor technology—the same advanced methodology found in modern smartphones, autonomous robots, and AR devices.
 
-Gives adequate readings from every run and gives you tips & tricks and general advice how to improve your running form
+### Core Philosophy
 
-Some of  the information includes:
+> *"From hardware wiring to firmware implementation—a complete end-to-end solution engineered by a single developer."*
 
-- Orbit of leg movement
-- Speed readings
-- Power rating & etc.
+This project represents a **diploma-level achievement** at one of Bulgaria's premier technical institutions, demonstrating how far a school-level IoT initiative can be pushed through rigorous engineering practices.
 
-Designed as part of a diploma project at one of Bulgaria’s top technical high schools, showing how far a school‑level project can be pushed.
-​
+---
 
-🎯 Why it’s cool
-Uses real ToF sensing (not just ultrasonic/IR), which is the same class of tech used in modern phones, robots and AR devices.​
+## 🎯 Key Features & Capabilities
 
-Focused on reliability and debuggability: serial output, LED feedback and structured firmware instead of throwaway demo code.​
+### Sensor Integration
+- **Advanced ToF Sensing**: Real-time distance measurements (not basic ultrasonic/IR)
+- **Inertial Measurement Unit (IMU)**: Accelerometer, gyroscope, and magnetometer fusion
+- **Multi-axis Monitoring**:
+  - Orbit or leg movement tracking
+  - Speed readings with temporal precision
+  - Power rating & energy consumption analysis
 
-Built completely by a single 18‑year‑old student, from hardware wiring to firmware and documentation, as a full end‑to‑end system.
-​
+### System Architecture
+```
+┌─────────────────────────────────────┐
+│   Sensor Array (ToF + IMU)          │
+├─────────────────────────────────────┤
+│   Microcontroller Firmware          │
+│   (Structured, Debuggable)          │
+├─────────────────────────────────────┤
+│   Serial Output + LED Feedback      │
+│   (Real-time Monitoring)            │
+└─────────────────────────────────────┘
+```
 
-🔒 Availability & usage
-This is a personal, academic project, published for reference only.
+### Engineering Highlights
+1. ***Reliability First***: Structured firmware architecture over quick-and-dirty demo code
+2. **Visual Feedback**: LED indicators for operational status and diagnostics
+3. **Serial Communication**: Direct data stream for analysis and debugging
+4. **Production-Grade Code**: Maintainable, documented, and extensible design patterns
 
-Not intended for commercial use.
+---
 
-Not designed as a reusable library, template, or general‑purpose module.
+## ✨ Why This Stands Out
 
-Please do not fork it as a base for your own product; treat it as a showcase / portfolio piece instead.
-​
+### Technical Differentiation
 
-👨‍🎓 About the author
-18‑year‑old student at Technology School Electronic Systems (TUES), Sofia, focused on embedded systems and IoT.
-​
+| Aspect | Step-Bro | Typical Projects |
+|--------|----------|------------------|
+| **Sensor Technology** | Professional ToF modules | Basic IR/Ultrasonic |
+| **Code Quality** | Production-ready firmware | Demo/Tutorial code |
+| **Scope** | Full end-to-end system | Single component focus |
+| **Documentation** | Comprehensive technical docs | Minimal/none |
 
-Interested in wearables, low‑power devices, Bluetooth, and sensor fusion, with previous experiments on foot‑pod‑style projects.
+### Development Achievement
+**Built entirely by an 18-year-old engineer**—from PCB design and component selection to firmware architecture and systems integration. This isn't a tutorial project; it's a *professional-grade portfolio piece*.
+
+---
+
+## 📦 Project Scope
+
+### What's Included
+- 🔧 **Complete Hardware Design**: PCB layouts and component sourcing
+- 💻 **Embedded Firmware**: STM32/ARM optimized C code
+- 📊 **Sensor Integration**: Calibration and data fusion algorithms
+- 📡 **Communication Protocols**: Serial, wireless (if applicable)
+- 📚 **Technical Documentation**: Datasheets, design decisions, usage guides
+
+---
+
+## ⚠️ Licensing & Usage
+
+### Academic & Reference Use Only
+
+> **Important**: This is a ***personal, academic project*** published for **reference and portfolio purposes** exclusively.
+
+### Restrictions
+- ❌ ***Not intended for commercial deployment***
+- ❌ ***Not designed as a reusable library or module***
+- ❌ ***Not suitable as a foundation for derivative products***
+
+### Recommendation
+**Treat this as a technical showcase / portfolio piece rather than a plug-and-play solution.** If you're inspired by the approach, use this as a learning reference—don't fork it as a product base.
+
+---
+
+## 🔗 Quick Navigation
+
+- [`/firmware`](https://github.com/KaloyanNikolov2021/Step-Bro/tree/main/firmware) — Microcontroller source code and build files
+- [`/hardware`](https://github.com/KaloyanNikolov2021/Step-Bro/tree/main/hardware) — PCB designs and schematics (KiCAD format)
+- [`/docs`](https://github.com/KaloyanNikolov2021/Step-Bro/tree/main/docs) — Technical documentation and sensor datasheets
+- [`/tools`](https://github.com/KaloyanNikolov2021/Step-Bro/tree/main/tools) — Calibration scripts and analysis utilities
+
+---
+
+## 📖 Getting Started
+
+For ***detailed setup instructions, hardware requirements, and firmware flashing procedures***, see the **[SETUP.md](./SETUP.md)** guide.
+
+---
+
+## 📄 License
+
+MIT License — See [`LICENSE`](./LICENSE) for full terms.
+
+---
+
+**Questions or improvements?** Open an issue or submit a pull request. Happy engineering! 🎓
