@@ -41,3 +41,5 @@ void loop() {
 
   delay(200); // малка пауза
 }
+
+#version 3 
